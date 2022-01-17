@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkcyan;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; */
+}
+h2{
+    font-size: 48px;
+    font-family: "Mntserrat", sans-serif;
+    font-weight: 200;
+    padding: 0 60px;
+    margin: 0;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 25px;
+    width: 100%;
+    padding-top: 25px;
+    
+}
+.time{
+    font-size: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 130px 0;
+    border: 1px solid black;
+    margin: 40px 0;
+    text-align: center;
+    
+}
+.controls{
+    display: flex;
+    /* padding: 10px; */
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    width: 200px;
+}
+.icons{
+    /* display: block; */
+    font-size: 50px;
+    /* padding: 10px; */
+
+    cursor: pointer;
+   
+   
+}
+.play{
+    display: block;
+}
+.pause{
+    display: none;
+}
+.reset{
+ 
+    font-size: 50px;
+    /* padding: 10px; */
+    text-align: center;
+    cursor: pointer;
+    margin-left: 40px;
+   
+ 
+}
